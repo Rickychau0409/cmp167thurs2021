@@ -1,21 +1,22 @@
-# Java is an Objext Oriented Programming language 
-# Four Pillars: Polymorphism, Inheritance, Encapsulation, Abstraction
+#  Given an array of integers {4, 1, 2, 3, 5}
+# 	How can you sort this array?
+#  Bubble sort 
+#  Time complexity : 0(n^2) worst case 
+int temp = arr [j];
+arr[j]   = arr[j] + arr[j+1];
+arr[j+1] = arr[j] - arr[j+1];
+arr[j]   = arr[j] - arr[j+1];
 
+##
+a = 5;
+b = 7;
+a = a + b; 5+7 => 12
+b = a - b; 12 -7 =>5
+a = a - b; 12 - 5 =>7
 
-# Polymorphism : Poly : Multiple, Morphism: form 
-- overloading and overriding 
-- Overloading Same name of methods but different parameter types 
-- OVerriding : modifying a parent's method in the child class
-
-# Encapsulation: Restricting access to instance variables by having them private and controlling the access to the instace variables by having setters and getters
-
-# Abstraction: Hiding the logic behind class and providing interface for users to have access to functionalities of the classes 
-
-# Inheritance: Child inherits the attributes and behaviors from the parent 
-- Parent Class/Super Class / Base Class
-- Child Class/ subclass
-
-- extends 
-
-	public class ChildClass extends ParentClass{
-	)
+##
+a = 7; 111
+b = 5; 101
+a = a ^ b; 111 ^ 101 => 010 => 2
+b = a ^ b; 010 ^ 101 => 111 => 7
+a = a ^ b; 010 ^ 111 => 101 => 5
